@@ -14,16 +14,23 @@
 <!--    <meta name="msapplication-config" content="/static/theonepage/images/browserconfig.xml">-->
 <!--    <meta name="theme-color" content="#ffffff">-->
     <link type="text/css" href="{% static 'theonepage/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link type="text/css" href="{% static 'theonepage/css/styles.css' %}" rel="stylesheet">
     <title>Как получить от витаминов максимум пользы?</title>
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col">1</div>
-            <div class="col">2</div>
-            <div class="col">3</div>
+<body class="gradient">
+        <div class="container-fluid d-flex flex-column">
+            <div class="row flex-fill d-flex h-100 justify-content-center">
+                <div class="col"></div>
+                <div class="col-md-auto">
+                    <h2 class="text-center color_font">Как принимать витамины так, чтобы они приносили пользу,
+                        а не бессмысленно улетали в унитаз?</h2>
+                    <h6 class="text-center color_font">Подпишись на мой телеграм-канал о здоровье и получи гайд бесплатно.</h6>
+                    <a href="https://t.me/persik_health" class="btn btn_self btn-lg">Получить гайд в Телеграм</a>
+                </div>
+                <div class="col"></div>
+            </div>
         </div>
-    </div>
+
     <script src="{% static 'theonepage/js/bootstrap.bundle.min.js' %}"></script>
 </body>
 </html>
