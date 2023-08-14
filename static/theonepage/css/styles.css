@@ -1,20 +1,14 @@
 :root {
     --color_bg1: #dcc1f5;
     --color_bg2: #C45C72;
+    --color_btn: #bb445e;
     --color_font: #6D0451;
 }
 
-body{
-  display: flex;
-  flex-direction: column;
-  height:100vh;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-}
+.top-buffer150 { margin-top:150px; }
 
-.container-fluid{
-  flex: 1;
+section {
+    padding: 200px 0;
 }
 
 .gradient {
@@ -33,6 +27,14 @@ body{
     color: var(--color_bg1)
 }
 
-btn_self {
+.btn_self {
+    background-color: var(--color_bg2);
+}
 
+.btn_self:hover {
+    background-color: var(--color_btn);
+}
+
+img.label {
+    border-radius: 50%;
 }
