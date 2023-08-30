@@ -1,11 +1,14 @@
 :root {
-    --color_bg1: #dcc1f5;
-    --color_bg2: #C45C72;
-    --color_btn: #bb445e;
-    --color_font: #6D0451;
+    --color_bg1: #d9ff66;
+    --color_bg2: #00ff00;
+    --color_btn: #33ff33;
+    --color_btn2: #ffad33;
+    --color_font: #003300;
 }
 
 .top-buffer150 { margin-top:150px; }
+
+.top-buffer50 { margin-top:50px; }
 
 section {
     padding: 200px 0;
@@ -28,7 +31,7 @@ section {
 }
 
 .btn_self {
-    background-color: var(--color_bg2);
+    background-color: var(--color_btn2);
 }
 
 .btn_self:hover {
